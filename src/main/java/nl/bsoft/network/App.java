@@ -18,25 +18,25 @@ public class App
 	
 		if (configuration == null) {
 			configuration = new Configuration();
-			configuration.setConfigFile("klic-proxy-config.xml");
+			configuration.setConfigFile("web-proxy-config.xml");
 		}
 	
-		outputdir = configuration.getString("klic-proxy.outputdir");
+		outputdir = configuration.getString("web-proxy.outputdir");
 		
 		loggingSwitch = new Boolean(
-				configuration.getString("klic-proxy.loggingswitch"))
+				configuration.getString("web-proxy.loggingswitch"))
 				.booleanValue();
 		outputSwitch = new Boolean(
-				configuration.getString("klic-proxy.outputswitch"))
+				configuration.getString("web-proxy.outputswitch"))
 				.booleanValue();
 		switchToSecure = new Boolean(
-				configuration.getString("klic-proxy.switchtosecure"))
+				configuration.getString("web-proxy.switchtosecure"))
 				.booleanValue();
 		verifyHostName = new Boolean(
-				configuration.getString("klic-proxy.verifyhostname"))
+				configuration.getString("web-proxy.verifyhostname"))
 				.booleanValue();
 
-		timeout = configuration.getInt("klic-proxy.timeout");
+		timeout = configuration.getInt("web-proxy.timeout");
 	}
 	
     public static void main( String[] args )
