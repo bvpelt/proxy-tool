@@ -1,0 +1,36 @@
+            ------
+            proxy tool
+            ------
+            B van Pelt
+            ------
+            2011-03-31
+            ------
+
+Proxy Tool
+
+  The proxy tool is a java proxy based on servlet technology. It should
+  work on different web services. I only tested it on JBOSS 5.0.1-GA.
+  
+  * {{{integration.html}Integration}}.
+  
+  * {{{dependencies.html}Dependencies}}.
+  
+  * {{{issue-tracking.html}Issue Tracking}}.
+  
+  * {{{mail-lists.html}Mailing Lists}}.
+  
+  * {{{plugin-management.html}Plugin Management}}.
+  
+  * {{{project-summary.html}Project Summary}}.
+  
+  * {{{team-list.html}Project Team}}.
+  
+  * {{{source-repository.html}Source Repository}}.
+  
+Deployment
+
+  In order to get the servlet working on JBOSS 5.0.1.-GA you need to:
+  
+  * Remove the default ROOT.war from $JBOSS_HOME/server/{configuration}/deploy. Here configuration is your configuration, the following configurations are known: all, default, minimal, standard and web.
+  
+  * Deploy the war file proxy-tool-0.0.1-SNAPSHOT.war in the deployment directory
