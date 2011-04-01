@@ -1,5 +1,27 @@
 package nl.bsoft.network;
 
+/*
+Copyright 2011 BSoft
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Purpose:
+The WebProxy provides proxy functionallity based on a servlet.
+When the request arrives the protocol is checked.
+If the protocol is https the content of the request is transferred to the original destination.
+If the protocol is http the protocol can be converted based on property web-proxy.switchtosecure to https.
+*/
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
