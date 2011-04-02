@@ -11,9 +11,9 @@ This page shows you how to achieve things like building the maven project, docum
 == Howto build the project ==
   * First checkout the project
   * Goto directory where project is checkedout
-  * Build with maven: mvn package
+  * Build with maven: {{{mvn package}}}
 
 == Howto build documentation ==
   * First checkout the project
   * Goto directory where project is checkedout
-  * Build with maven: mvn site
+  * Build with maven: {{{mvn site}}}
