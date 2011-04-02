@@ -9,11 +9,11 @@ This page shows you how to achieve things like building the maven project, docum
 
 
 == Howto build the project ==
-  * First checkout the project
+  * First checkout the project: {{{# svn checkout http://proxy-tool.googlecode.com/svn/trunk/ proxy-tool-read-only}}}
   * Goto directory where project is checkedout
   * Build with maven: {{{# mvn package}}}
 
 == Howto build documentation ==
-  * First checkout the project
+  * First checkout the project: {{{# svn checkout http://proxy-tool.googlecode.com/svn/trunk/ proxy-tool-read-only}}}
   * Goto directory where project is checkedout
   * Build with maven: {{{# mvn site}}}
