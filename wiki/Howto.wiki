@@ -1,0 +1,19 @@
+#summary Howto achieve things
+
+= Introduction =
+
+This page shows you how to achieve things like building the maven project, documentation and deployment of the proxy tool
+
+
+= Details =
+
+
+== Howto build the project ==
+* First checkout the project
+* Goto directory where project is checkedout
+* Build with maven: mvn package
+
+== Howto build documentation ==
+* First checkout the project
+* Goto directory where project is checkedout
+* Build with maven: mvn site
