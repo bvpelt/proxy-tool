@@ -23,8 +23,7 @@ I tested this on unix (fedora core 12) with java 1.6.0_18-b07)
 Trusted certificates are found on:
 {{{$JAVA_HOME/jre/lib/security/cacerts}}}
 
-You can view the content of this keystore with:
-{{{keystore -list --keystore $JAVA_HOME/jre/lib/security/cacerts}}}
+You can view the content of this keystore.
 The output looks like:
 {{{
 keytool -list --keystore $JAVA_HOME/jre/lib/security/cacerts 
