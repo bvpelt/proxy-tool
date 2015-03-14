@@ -1,0 +1,1 @@
+The proxy-tool is used as a proxy to be able to view the content of web request/responses. It can also be set up to convert http requests to https request.
